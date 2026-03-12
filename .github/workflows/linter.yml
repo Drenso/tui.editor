@@ -1,16 +1,16 @@
 name: Editor Lint Code Base
 on: pull_request
-jobs: 
+jobs:
   lint:
     name: Lint Code Base
     runs-on: ubuntu-latest
     steps:
       - name: Checkout branch
         uses: actions/checkout@v2
-      - name: Use Node.js 15.x
+      - name: Use Node.js 22.x
         uses: actions/setup-node@v2.5.1
         with:
-          node-version: '15.x'
+          node-version: '22.x'
       - name: Install
         run: |
           npm ci

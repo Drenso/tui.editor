@@ -21,10 +21,10 @@ jobs:
     steps:
       - name: Checkout branch
         uses: actions/checkout@v2
-      - name: Use Node.js 15.x
+      - name: Use Node.js 22.x
         uses: actions/setup-node@v2.5.1
         with:
-          node-version: '15.x'
+          node-version: '22.x'
       - name: Install
         run: |
           npm ci
@@ -41,10 +41,10 @@ jobs:
     steps:
       - name: Checkout branch
         uses: actions/checkout@v2
-      - name: Use Node.js 15.x
+      - name: Use Node.js 22.x
         uses: actions/setup-node@v2.5.1
         with:
-          node-version: '15.x'
+          node-version: '22.x'
       - name: Install
         run: |
           npm ci
@@ -64,10 +64,10 @@ jobs:
     steps:
       - name: Checkout branch
         uses: actions/checkout@v2
-      - name: Use Node.js 15.x
+      - name: Use Node.js 22.x
         uses: actions/setup-node@v2.5.1
         with:
-          node-version: '15.x'
+          node-version: '22.x'
       - name: Install
         run: |
           npm ci
@@ -101,10 +101,10 @@ jobs:
         uses: PostHog/check-package-version@v2
         with:
           path: ./apps/editor/
-      - name: Use Node.js 15.x
+      - name: Use Node.js 22.x
         uses: actions/setup-node@v2.5.1
         with:
-          node-version: '15.x'
+          node-version: '22.x'
           registry-url: https://registry.npmjs.org/
       - name: Install
         run: |
