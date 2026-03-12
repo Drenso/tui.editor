@@ -1,4 +1,4 @@
-import type { PluginContext } from '@toast-ui/editor';
+import type { PluginContext } from '@drenso-toast-ui/editor';
 import type { TableOffsetMapFactory } from '@t/index';
 import { createMergeCellsCommand } from './command/mergeCells';
 import { createSplitCellsCommand } from './command/splitCells';

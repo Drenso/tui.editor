@@ -5,7 +5,7 @@ import { keymap } from 'prosemirror-keymap';
 import { baseKeymap } from 'prosemirror-commands';
 import { InputRule, inputRules } from 'prosemirror-inputrules';
 import { history } from 'prosemirror-history';
-import { Sourcepos } from '@toast-ui/toastmark';
+import { Sourcepos } from '@drenso-toast-ui/toastmark';
 import css from 'tui-code-snippet/domUtil/css';
 import { WidgetStyle, EditorType, EditorPos, Base, NodeRangeInfo } from '@t/editor';
 import { Emitter } from '@t/event';

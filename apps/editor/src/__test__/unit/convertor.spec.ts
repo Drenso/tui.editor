@@ -1,6 +1,6 @@
 import { source, oneLineTrim } from 'common-tags';
 
-import { Context, MdNode, Parser, HTMLConvertorMap } from '@toast-ui/toastmark';
+import { Context, MdNode, Parser, HTMLConvertorMap } from '@drenso-toast-ui/toastmark';
 
 import { Node, Schema } from 'prosemirror-model';
 import { createSpecs } from '@/wysiwyg/specCreator';

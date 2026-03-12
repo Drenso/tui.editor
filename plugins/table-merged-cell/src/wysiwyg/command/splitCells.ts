@@ -1,4 +1,4 @@
-import type { PluginContext } from '@toast-ui/editor';
+import type { PluginContext } from '@drenso-toast-ui/editor';
 import type { TableOffsetMapFactory, TableOffsetMap, CommandFn, SelectionInfo } from '@t/index';
 import type { EditorView } from 'prosemirror-view';
 import type { Selection } from 'prosemirror-state';

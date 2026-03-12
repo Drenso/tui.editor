@@ -1,6 +1,6 @@
 import ColorPicker from 'tui-color-picker';
-import type { Context } from '@toast-ui/toastmark';
-import type { PluginContext, PluginInfo, HTMLMdNode, I18n } from '@toast-ui/editor';
+import type { Context } from '@drenso-toast-ui/toastmark';
+import type { PluginContext, PluginInfo, HTMLMdNode, I18n } from '@drenso-toast-ui/editor';
 import type { Transaction, Selection, TextSelection } from 'prosemirror-state';
 import { PluginOptions } from '@t/index';
 import { addLangs } from './i18n/langs';

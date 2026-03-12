@@ -1,6 +1,6 @@
 import { Plugin } from 'prosemirror-state';
 import { EditorView } from 'prosemirror-view';
-import { MdPos } from '@toast-ui/toastmark';
+import { MdPos } from '@drenso-toast-ui/toastmark';
 import { MdContext } from '@t/spec';
 import { findClosestNode } from '@/utils/markdown';
 import { getRangeInfo, getNodeContentOffsetRange } from '../helper/pos';

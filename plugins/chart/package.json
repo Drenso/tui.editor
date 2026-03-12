@@ -1,5 +1,5 @@
 {
-  "name": "@toast-ui/editor-plugin-chart",
+  "name": "@drenso-toast-ui/editor-plugin-chart",
   "version": "3.0.1",
   "description": "TOAST UI Editor : Chart Plugin",
   "keywords": [
@@ -47,7 +47,7 @@
     "stream-browserify": "^3.0.0"
   },
   "dependencies": {
-    "@toast-ui/chart": "^4.1.4"
+    "@drenso-toast-ui/chart": "^4.1.4"
   },
   "publishConfig": {
     "access": "public"

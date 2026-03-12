@@ -1,4 +1,4 @@
-import type { PluginContext } from '@toast-ui/editor';
+import type { PluginContext } from '@drenso-toast-ui/editor';
 import type { TableOffsetMapFactory, TableOffsetMap, CommandFn, SelectionInfo } from '@t/index';
 import type { Node } from 'prosemirror-model';
 import { createDummyCells, getResolvedSelection, getRowAndColumnCount, setAttrs } from '../util';

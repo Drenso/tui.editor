@@ -11,7 +11,7 @@ import {
   HTMLConvertorMap,
   OpenTagToken,
   Renderer,
-} from '@toast-ui/toastmark';
+} from '@drenso-toast-ui/toastmark';
 import toArray from 'tui-code-snippet/collection/toArray';
 
 import { isElemNode } from '@/utils/dom';

@@ -1,4 +1,4 @@
-import { MdNode } from '@toast-ui/toastmark';
+import { MdNode } from '@drenso-toast-ui/toastmark';
 import { sanitizeHTML } from '@/sanitizer/htmlSanitizer';
 
 import {

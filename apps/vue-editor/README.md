@@ -2,7 +2,7 @@
 
 > This is [Vue](https://vuejs.org/) component wrapping [TOAST UI Editor](https://github.com/nhn/tui.editor/tree/master/apps/editor).
 
-[![npm version](https://img.shields.io/npm/v/@toast-ui/vue-editor.svg)](https://www.npmjs.com/package/@toast-ui/vue-editor)
+[![npm version](https://img.shields.io/npm/v/@drenso-toast-ui/vue-editor.svg)](https://www.npmjs.com/package/@drenso-toast-ui/vue-editor)
 
 ## 🚩 Table of Contents
 
@@ -27,29 +27,29 @@ const options = {
 ### Using npm
 
 ```sh
-npm install --save @toast-ui/vue-editor
+npm install --save @drenso-toast-ui/vue-editor
 ```
 
 ## 📝 Editor Usage
 
 ### Import
 
-You can use Toast UI Editor for Vue as a ECMAScript module or a CommonJS module. As this module does not contain CSS files, you should import `toastui-editor.css` from `@toast-ui/editor` in the script.
+You can use Toast UI Editor for Vue as a ECMAScript module or a CommonJS module. As this module does not contain CSS files, you should import `toastui-editor.css` from `@drenso-toast-ui/editor` in the script.
 
 - ES Modules
 
 ```js
-import '@toast-ui/editor/dist/toastui-editor.css';
+import '@drenso-toast-ui/editor/dist/toastui-editor.css';
 
-import { Editor } from '@toast-ui/vue-editor';
+import { Editor } from '@drenso-toast-ui/vue-editor';
 ```
 
 - CommonJS
 
 ```js
-require('@toast-ui/editor/dist/toastui-editor.css');
+require('@drenso-toast-ui/editor/dist/toastui-editor.css');
 
-const { Editor } = require('@toast-ui/vue-editor');
+const { Editor } = require('@drenso-toast-ui/vue-editor');
 ```
 
 ### Creating Component
@@ -65,9 +65,9 @@ First implement `<editor/>` in the template.
 And then add `Editor` to the `components` in your component or Vue instance like this:
 
 ```js
-import '@toast-ui/editor/dist/toastui-editor.css';
+import '@drenso-toast-ui/editor/dist/toastui-editor.css';
 
-import { Editor } from '@toast-ui/vue-editor';
+import { Editor } from '@drenso-toast-ui/vue-editor';
 
 export default {
   components: {
@@ -79,9 +79,9 @@ export default {
 or
 
 ```js
-import '@toast-ui/editor/dist/toastui-editor.css';
+import '@drenso-toast-ui/editor/dist/toastui-editor.css';
 
-import { Editor } from '@toast-ui/vue-editor';
+import { Editor } from '@drenso-toast-ui/vue-editor';
 
 new Vue({
   el: '#app',
@@ -130,9 +130,9 @@ const defaultOptions = {
   />
 </template>
 <script>
-  import '@toast-ui/editor/dist/toastui-editor.css';
+  import '@drenso-toast-ui/editor/dist/toastui-editor.css';
 
-  import { Editor } from '@toast-ui/vue-editor';
+  import { Editor } from '@drenso-toast-ui/vue-editor';
 
   export default {
     components: {
@@ -161,9 +161,9 @@ First, you need to assign `ref` attribute of `<editor/>` and then you can use `i
   <editor ref="toastuiEditor" />
 </template>
 <script>
-  import '@toast-ui/editor/dist/toastui-editor.css';
+  import '@drenso-toast-ui/editor/dist/toastui-editor.css';
 
-  import { Editor } from '@toast-ui/vue-editor';
+  import { Editor } from '@drenso-toast-ui/vue-editor';
 
   export default {
     components: {
@@ -203,7 +203,7 @@ First, you need to assign `ref` attribute of `<editor/>` and then you can use `i
   />
 </template>
 <script>
-  import { Editor } from '@toast-ui/vue-editor';
+  import { Editor } from '@drenso-toast-ui/vue-editor';
 
   export default {
     components: {
@@ -237,17 +237,17 @@ First, you need to assign `ref` attribute of `<editor/>` and then you can use `i
 - ES Modules
 
 ```js
-import '@toast-ui/editor/dist/toastui-editor-viewer.css';
+import '@drenso-toast-ui/editor/dist/toastui-editor-viewer.css';
 
-import { Viewer } from '@toast-ui/vue-editor';
+import { Viewer } from '@drenso-toast-ui/vue-editor';
 ```
 
 - CommonJS
 
 ```js
-require('@toast-ui/editor/dist/toastui-editor-viewer.css');
+require('@drenso-toast-ui/editor/dist/toastui-editor-viewer.css');
 
-const { Viewer } = require('@toast-ui/vue-editor');
+const { Viewer } = require('@drenso-toast-ui/vue-editor');
 ```
 
 ### Creating Component
@@ -263,9 +263,9 @@ First implement `<viewer />` in the template.
 And then add `Viewer` to the `components` in your component or Vue instance like this:
 
 ```js
-import '@toast-ui/editor/dist/toastui-editor-viewer.css';
+import '@drenso-toast-ui/editor/dist/toastui-editor-viewer.css';
 
-import { Viewer } from '@toast-ui/vue-editor';
+import { Viewer } from '@drenso-toast-ui/vue-editor';
 
 export default {
   components: {
@@ -277,9 +277,9 @@ export default {
 or
 
 ```js
-import '@toast-ui/editor/dist/toastui-editor-viewer.css';
+import '@drenso-toast-ui/editor/dist/toastui-editor-viewer.css';
 
-import { Viewer } from '@toast-ui/vue-editor';
+import { Viewer } from '@drenso-toast-ui/vue-editor';
 
 new Vue({
   el: '#app',
@@ -302,9 +302,9 @@ new Vue({
   <viewer :initialValue="viewerText" height="500px" />
 </template>
 <script>
-  import '@toast-ui/editor/dist/toastui-editor-viewer.css';
+  import '@drenso-toast-ui/editor/dist/toastui-editor-viewer.css';
 
-  import { Viewer } from '@toast-ui/vue-editor';
+  import { Viewer } from '@drenso-toast-ui/vue-editor';
 
   export default {
     components: {

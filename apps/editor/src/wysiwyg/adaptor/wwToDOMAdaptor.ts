@@ -8,7 +8,7 @@ import {
   RawHTMLToken,
   Renderer,
   TextToken,
-} from '@toast-ui/toastmark';
+} from '@drenso-toast-ui/toastmark';
 import { ProsemirrorNode, Mark } from 'prosemirror-model';
 import isArray from 'tui-code-snippet/type/isArray';
 import { getHTMLRenderConvertors } from '@/markdown/htmlRenderConvertors';

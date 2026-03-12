@@ -18,7 +18,7 @@
  * y.title: Month              => yAxis.title
  * $$
  */
-import type { PluginInfo, MdNode, PluginContext } from '@toast-ui/editor';
+import type { PluginInfo, MdNode, PluginContext } from '@drenso-toast-ui/editor';
 import Chart, {
   BaseOptions,
   LineChart,
@@ -26,7 +26,7 @@ import Chart, {
   BarChart,
   PieChart,
   ColumnChart,
-} from '@toast-ui/chart';
+} from '@drenso-toast-ui/chart';
 import isString from 'tui-code-snippet/type/isString';
 import isUndefined from 'tui-code-snippet/type/isUndefined';
 import inArray from 'tui-code-snippet/array/inArray';

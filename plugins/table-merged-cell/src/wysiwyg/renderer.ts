@@ -1,5 +1,5 @@
 import type { Node as ProsemirrorNode } from 'prosemirror-model';
-import type { ToMdConvertorMap } from '@toast-ui/editor';
+import type { ToMdConvertorMap } from '@drenso-toast-ui/editor';
 
 type ColumnAlign = 'left' | 'right' | 'center';
 const DELIM_LENGH = 3;

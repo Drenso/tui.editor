@@ -48,9 +48,9 @@ module.exports = (env) => {
     externals: [
       {
         '../editorCore': {
-          commonjs: '@toast-ui/editor',
-          commonjs2: '@toast-ui/editor',
-          amd: '@toast-ui/editor',
+          commonjs: '@drenso-toast-ui/editor',
+          commonjs2: '@drenso-toast-ui/editor',
+          amd: '@drenso-toast-ui/editor',
           root: ['toastui', 'Editor'],
         },
       },

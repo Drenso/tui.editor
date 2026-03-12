@@ -1,5 +1,5 @@
 {
-  "name": "@toast-ui/react-editor",
+  "name": "@drenso-toast-ui/react-editor",
   "version": "3.2.3",
   "description": "TOAST UI Editor for React",
   "files": [
@@ -35,6 +35,6 @@
     "react-dom": "^17.0.1"
   },
   "dependencies": {
-    "@toast-ui/editor": "^3.2.2"
+    "@drenso-toast-ui/editor": "^3.2.2"
   }
 }

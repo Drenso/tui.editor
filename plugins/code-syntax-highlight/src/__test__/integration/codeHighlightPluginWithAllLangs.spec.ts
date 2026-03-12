@@ -1,6 +1,6 @@
 import { source } from 'common-tags';
 
-import Editor from '@toast-ui/editor';
+import Editor from '@drenso-toast-ui/editor';
 import codeSyntaxHighlightPlugin from '@/indexAll';
 
 describe('codeSyntaxHighlightPlugin', () => {

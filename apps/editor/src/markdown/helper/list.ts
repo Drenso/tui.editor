@@ -1,5 +1,5 @@
 import { ProsemirrorNode, Schema } from 'prosemirror-model';
-import { ListItemMdNode, MdNode, ToastMark } from '@toast-ui/toastmark';
+import { ListItemMdNode, MdNode, ToastMark } from '@drenso-toast-ui/toastmark';
 import { findClosestNode, isListNode, isOrderedListNode } from '@/utils/markdown';
 import { createTextNode } from '@/helper/manipulation';
 import { getTextByMdLine } from './query';

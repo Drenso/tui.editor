@@ -1,4 +1,4 @@
-import type { PluginContext } from '@toast-ui/editor';
+import type { PluginContext } from '@drenso-toast-ui/editor';
 import toArray from 'tui-code-snippet/collection/toArray';
 
 const TABLE_CELL_SELECT_CLASS = '.toastui-editor-cell-selected';

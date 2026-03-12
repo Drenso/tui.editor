@@ -1,4 +1,4 @@
-import { I18n } from '@toast-ui/editor';
+import { I18n } from '@drenso-toast-ui/editor';
 
 export function addLangs(i18n: I18n) {
   i18n.setLanguage(['ko', 'ko-KR'], {

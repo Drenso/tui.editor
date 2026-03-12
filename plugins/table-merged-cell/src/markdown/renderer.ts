@@ -1,5 +1,5 @@
-import type { CustomHTMLRenderer } from '@toast-ui/editor';
-import type { OpenTagToken } from '@toast-ui/toastmark';
+import type { CustomHTMLRenderer } from '@drenso-toast-ui/editor';
+import type { OpenTagToken } from '@drenso-toast-ui/toastmark';
 import { MergedTableCellMdNode, MergedTableRowMdNode } from '@t/index';
 
 export const toHTMLRenderers: CustomHTMLRenderer = {

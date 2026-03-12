@@ -1,5 +1,5 @@
 import React from 'react';
-import Viewer, { EventMap } from '@toast-ui/editor/dist/toastui-editor-viewer';
+import Viewer, { EventMap } from '@drenso-toast-ui/editor/dist/toastui-editor-viewer';
 import { ViewerProps, EventNames } from '../index';
 
 export default class ViewerComponent extends React.Component<ViewerProps> {

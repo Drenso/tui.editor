@@ -9,7 +9,7 @@ function i18nEditorImportPath() {
   return {
     name: 'i18nEditorImportPath',
     transform(code) {
-      return code.replace('../editorCore', '@toast-ui/editor');
+      return code.replace('../editorCore', '@drenso-toast-ui/editor');
     },
   };
 }
@@ -19,7 +19,7 @@ const fileNames = fs.readdirSync('./src/i18n');
 function createBannerPlugin(type) {
   return banner(
     [
-      `@toast-ui/editor${type ? ` : ${type}` : ''}`,
+      `@drenso-toast-ui/editor${type ? ` : ${type}` : ''}`,
       `@version ${version} | ${new Date().toDateString()}`,
       `@author ${author}`,
       `@license ${license}`,
@@ -58,7 +58,7 @@ export default [
       format: 'es',
       sourcemap: false,
     },
-    external: ['@toast-ui/editor'],
+    external: ['@drenso-toast-ui/editor'],
     plugins: [
       typescript(),
       commonjs(),

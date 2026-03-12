@@ -31,13 +31,13 @@ TOASE UI Editor(이하 'Editor'라고 명시)는 에디터를 로딩하지 않�
 - ES6 모듈
 
 ```javascript
-import Viewer from '@toast-ui/editor/dist/toastui-editor-viewer';
+import Viewer from '@drenso-toast-ui/editor/dist/toastui-editor-viewer';
 ```
 
 - CommonJS
 
 ```javascript
-const Viewer = require('@toast-ui/dist/toastui-editor-viewer');
+const Viewer = require('@drenso-toast-ui/dist/toastui-editor-viewer');
 ```
 
 #### 브라우저 환경에서의 namespace 사용
@@ -66,13 +66,13 @@ CDN에서 뷰어는 다음처럼 사용한다.
 - ES6 모듈
 
 ```javascript
-import '@toast-ui/editor/dist/toastui-editor-viewer.css';
+import '@drenso-toast-ui/editor/dist/toastui-editor-viewer.css';
 ```
 
 - CommonJS
 
 ```javascript
-require('@toast-ui/editor/dist/toastui-editor-viewer.css');
+require('@drenso-toast-ui/editor/dist/toastui-editor-viewer.css');
 ```
 
 #### CDN 환경
@@ -112,7 +112,7 @@ const viewer = new Viewer({
 에디터에 이미 뷰어 기능이 포함되어 있으므로 에디터와 뷰어가 동시에 로드되지 않도록 주의해야 한다. 또한 `Editor.factory()` 정적 메서드를 사용하여 뷰어를 사용할 수 있다. 아래 코드처럼 `viewer` 옵션을 `true`로 설정하면 뷰어가 생성된다.
 
 ```js
-import Editor from '@toast-ui/editor';
+import Editor from '@drenso-toast-ui/editor';
 
 const viewer = Editor.factory({
   el: document.querySelector('#viewer'),

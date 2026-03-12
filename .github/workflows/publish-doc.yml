@@ -99,9 +99,9 @@ jobs:
         uses: actions/setup-node@v2.5.1
         with:
           node-version: '10.x'
-      - name: Install @toast-ui/doc
+      - name: Install @drenso-toast-ui/doc
         run: |
-          npm i -g @toast-ui/doc
+          npm i -g @drenso-toast-ui/doc
       - name: Run doc
         run: |
           npm run doc

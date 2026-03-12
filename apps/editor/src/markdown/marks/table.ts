@@ -1,7 +1,7 @@
 import { DOMOutputSpec } from 'prosemirror-model';
 import { Command } from 'prosemirror-commands';
 import type { Transaction } from 'prosemirror-state';
-import { TableCellMdNode, MdNode, MdPos } from '@toast-ui/toastmark';
+import { TableCellMdNode, MdNode, MdPos } from '@drenso-toast-ui/toastmark';
 import { EditorCommand, MdSpecContext } from '@t/spec';
 import { TableRowMdNode } from '@t/markdown';
 import { clsWithMdPrefix } from '@/utils/dom';

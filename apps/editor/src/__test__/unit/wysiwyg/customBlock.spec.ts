@@ -1,5 +1,5 @@
 import { oneLineTrim } from 'common-tags';
-import { HTMLConvertorMap } from '@toast-ui/toastmark';
+import { HTMLConvertorMap } from '@drenso-toast-ui/toastmark';
 import { ToDOMAdaptor } from '@t/convertor';
 import { WwToDOMAdaptor } from '@/wysiwyg/adaptor/wwToDOMAdaptor';
 import WysiwygEditor from '@/wysiwyg/wwEditor';

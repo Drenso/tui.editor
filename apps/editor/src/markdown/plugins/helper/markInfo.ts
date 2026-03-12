@@ -8,7 +8,7 @@ import {
   CodeBlockMdNode,
   CustomBlockMdNode,
   ListItemMdNode,
-} from '@toast-ui/toastmark';
+} from '@drenso-toast-ui/toastmark';
 import isFunction from 'tui-code-snippet/type/isFunction';
 import {
   getMdStartLine,

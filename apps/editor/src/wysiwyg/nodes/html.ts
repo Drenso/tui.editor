@@ -5,7 +5,7 @@ import {
   NodeSpec,
   MarkSpec,
 } from 'prosemirror-model';
-import { MdNode } from '@toast-ui/toastmark';
+import { MdNode } from '@drenso-toast-ui/toastmark';
 import toArray from 'tui-code-snippet/collection/toArray';
 import { Sanitizer, HTMLSchemaMap, CustomHTMLRenderer } from '@t/editor';
 import { ToDOMAdaptor } from '@t/convertor';

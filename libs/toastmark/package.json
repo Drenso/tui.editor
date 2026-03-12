@@ -1,5 +1,5 @@
 {
-  "name": "@toast-ui/toastmark",
+  "name": "@drenso-toast-ui/toastmark",
   "version": "0.0.1-alpha.1",
   "description": "ToastMark - Incremental markdown parser extended from CommonMark.js",
   "scripts": {

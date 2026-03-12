@@ -9,15 +9,15 @@ const optionDefinitions = [
 const options = commandLineArgs(optionDefinitions);
 
 const pkgMap = {
-  editor: '@toast-ui/editor',
-  react: '@toast-ui/react-editor',
-  vue: '@toast-ui/vue-editor',
-  toastmark: '@toast-ui/toastmark',
-  chart: '@toast-ui/editor-plugin-chart',
-  color: '@toast-ui/editor-plugin-color-syntax',
-  code: '@toast-ui/editor-plugin-code-syntax-highlight',
-  table: '@toast-ui/editor-plugin-table-merged-cell',
-  uml: '@toast-ui/editor-plugin-uml',
+  editor: '@drenso-toast-ui/editor',
+  react: '@drenso-toast-ui/react-editor',
+  vue: '@drenso-toast-ui/vue-editor',
+  toastmark: '@drenso-toast-ui/toastmark',
+  chart: '@drenso-toast-ui/editor-plugin-chart',
+  color: '@drenso-toast-ui/editor-plugin-color-syntax',
+  code: '@drenso-toast-ui/editor-plugin-code-syntax-highlight',
+  table: '@drenso-toast-ui/editor-plugin-table-merged-cell',
+  uml: '@drenso-toast-ui/editor-plugin-uml',
 };
 
 const pathMap = {

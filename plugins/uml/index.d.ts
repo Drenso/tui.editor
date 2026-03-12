@@ -1,4 +1,4 @@
-import type { PluginContext, PluginInfo } from '@toast-ui/editor';
+import type { PluginContext, PluginInfo } from '@drenso-toast-ui/editor';
 
 export interface PluginOptions {
   rendererURL?: string;

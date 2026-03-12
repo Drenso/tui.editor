@@ -4,7 +4,7 @@ import { getHTMLRenderers } from '@/renderers/toHTMLRenderers';
 import { codeSyntaxHighlighting } from '@/plugins/codeSyntaxHighlighting';
 import { createCodeSyntaxHighlightView } from '@/nodeViews/codeSyntaxHighlightView';
 
-import type { PluginContext, PluginInfo } from '@toast-ui/editor';
+import type { PluginContext, PluginInfo } from '@drenso-toast-ui/editor';
 import { PluginOptions } from '@t/index';
 
 export function codeSyntaxHighlightPlugin(

@@ -1,5 +1,5 @@
 import { Node as ProsemirrorNode, Schema } from 'prosemirror-model';
-import { HTMLConvertorMap, MdNode, MdPos } from '@toast-ui/toastmark';
+import { HTMLConvertorMap, MdNode, MdPos } from '@drenso-toast-ui/toastmark';
 
 import { ToWwConvertorMap, ToMdConvertors, ToMdConvertorMap } from '@t/convertor';
 import { Emitter } from '@t/event';

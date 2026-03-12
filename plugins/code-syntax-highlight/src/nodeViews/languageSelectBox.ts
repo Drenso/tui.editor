@@ -6,7 +6,7 @@ import toArray from 'tui-code-snippet/collection/toArray';
 import inArray from 'tui-code-snippet/array/inArray';
 
 import { isPositionInBox, removeNode, cls } from '@/utils/dom';
-import type { Emitter } from '@toast-ui/editor';
+import type { Emitter } from '@drenso-toast-ui/editor';
 
 export const WRAPPER_CLASS_NAME = 'code-block-language';
 export const INPUT_CLASS_NANE = 'code-block-language-input';

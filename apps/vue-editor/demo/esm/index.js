@@ -1,6 +1,6 @@
 import Vue from 'vue/dist/vue.esm.browser';
 import { Editor } from '/dist/index.js';
-import '@toast-ui/editor/dist/toastui-editor.css';
+import '@drenso-toast-ui/editor/dist/toastui-editor.css';
 
 Vue.component('editor', Editor);
 

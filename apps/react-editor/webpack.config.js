@@ -13,13 +13,13 @@ const config = {
     },
   },
   externals: {
-    '@toast-ui/editor': {
-      commonjs: '@toast-ui/editor',
-      commonjs2: '@toast-ui/editor',
+    '@drenso-toast-ui/editor': {
+      commonjs: '@drenso-toast-ui/editor',
+      commonjs2: '@drenso-toast-ui/editor',
     },
-    '@toast-ui/editor/dist/toastui-editor-viewer': {
-      commonjs: '@toast-ui/editor/dist/toastui-editor-viewer',
-      commonjs2: '@toast-ui/editor/dist/toastui-editor-viewer',
+    '@drenso-toast-ui/editor/dist/toastui-editor-viewer': {
+      commonjs: '@drenso-toast-ui/editor/dist/toastui-editor-viewer',
+      commonjs2: '@drenso-toast-ui/editor/dist/toastui-editor-viewer',
     },
     react: {
       commonjs: 'react',

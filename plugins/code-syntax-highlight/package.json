@@ -1,5 +1,5 @@
 {
-  "name": "@toast-ui/editor-plugin-code-syntax-highlight",
+  "name": "@drenso-toast-ui/editor-plugin-code-syntax-highlight",
   "version": "3.1.0",
   "description": "TOAST UI Editor : Code Syntax Highlight Plugin",
   "keywords": [

@@ -7,7 +7,7 @@ import {
   selectNodeBackward,
 } from 'prosemirror-commands';
 import * as keymaps from 'prosemirror-keymap';
-import { Sourcepos, ToastMark } from '@toast-ui/toastmark';
+import { Sourcepos, ToastMark } from '@drenso-toast-ui/toastmark';
 import MarkdownEditor from '@/markdown/mdEditor';
 import MarkdownPreview from '@/markdown/mdPreview';
 import EventEmitter from '@/event/eventEmitter';

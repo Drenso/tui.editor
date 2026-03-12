@@ -1,6 +1,6 @@
 # ![TOAST UI Editor](https://uicdn.toast.com/toastui/img/tui-editor-bi.png)
 
-[![npm](https://img.shields.io/npm/v/@toast-ui/editor.svg)](https://www.npmjs.com/package/@toast-ui/editor)
+[![npm](https://img.shields.io/npm/v/@drenso-toast-ui/editor.svg)](https://www.npmjs.com/package/@drenso-toast-ui/editor)
 
 ## 🚩 Table of Contents
 
@@ -46,8 +46,8 @@ TOAST UI products are registered in two package managers, [npm](https://www.npmj
 #### npm
 
 ```sh
-$ npm install --save @toast-ui/editor # Latest Version
-$ npm install --save @toast-ui/editor@<version> # Specific Version
+$ npm install --save @drenso-toast-ui/editor # Latest Version
+$ npm install --save @drenso-toast-ui/editor@<version> # Specific Version
 ```
 
 ### Via Contents Delivery Network (CDN)
@@ -111,13 +111,13 @@ The editor can be used by creating an instance with the constructor function. To
 - ES6 Modules
 
 ```javascript
-import Editor from '@toast-ui/editor';
+import Editor from '@drenso-toast-ui/editor';
 ```
 
 - CommonJS
 
 ```javascript
-const Editor = require('@toast-ui/editor');
+const Editor = require('@drenso-toast-ui/editor');
 ```
 
 ### Using Namespace in Browser Environment
@@ -131,7 +131,7 @@ Then, you need to add the CSS files needed for the Editor. Import CSS files in n
 ### Using in Node Environment
 
 ```javascript
-import '@toast-ui/editor/dist/toastui-editor.css'; // Editor's Style
+import '@drenso-toast-ui/editor/dist/toastui-editor.css'; // Editor's Style
 ```
 
 ### Using in Browser Environment by CDN

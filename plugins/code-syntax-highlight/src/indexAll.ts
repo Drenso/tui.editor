@@ -1,5 +1,5 @@
 import Prism from 'prismjs';
-import type { PluginContext, PluginInfo } from '@toast-ui/editor';
+import type { PluginContext, PluginInfo } from '@drenso-toast-ui/editor';
 import { codeSyntaxHighlightPlugin } from '@/plugin';
 import { PrismJs } from '@t/index';
 

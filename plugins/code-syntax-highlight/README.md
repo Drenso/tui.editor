@@ -2,7 +2,7 @@
 
 > This is a plugin of [TOAST UI Editor](https://github.com/nhn/tui.editor/tree/master/apps/editor) to highlight code syntax.
 
-[![npm version](https://img.shields.io/npm/v/@toast-ui/editor-plugin-code-syntax-highlight.svg)](https://www.npmjs.com/package/@toast-ui/editor-plugin-code-syntax-highlight)
+[![npm version](https://img.shields.io/npm/v/@drenso-toast-ui/editor-plugin-code-syntax-highlight.svg)](https://www.npmjs.com/package/@drenso-toast-ui/editor-plugin-code-syntax-highlight)
 
 ![code-syntax-highlight](https://user-images.githubusercontent.com/37766175/121834103-de6c3d00-cd08-11eb-870f-6ff943f65f8b.png)
 
@@ -20,7 +20,7 @@
 
 ```
 - node_modules/
-  - @toast-ui/
+  - @drenso-toast-ui/
     - editor-plugin-code-syntax-highlight/
       - dist/
         - toastui-editor-plugin-code-syntax-highlight-all.js
@@ -44,14 +44,14 @@
 
 ## 📦 Usage npm
 
-To use the plugin, [`@toast-ui/editor`](https://github.com/nhn/tui.editor/tree/master/apps/editor) must be installed.
+To use the plugin, [`@drenso-toast-ui/editor`](https://github.com/nhn/tui.editor/tree/master/apps/editor) must be installed.
 
 > Ref. [Getting Started](https://github.com/nhn/tui.editor/blob/master/docs/en/getting-started.md)
 
 ### Install
 
 ```sh
-$ npm install @toast-ui/editor-plugin-code-syntax-highlight
+$ npm install @drenso-toast-ui/editor-plugin-code-syntax-highlight
 ```
 
 ### Import Plugin
@@ -63,18 +63,18 @@ The `code-syntax-highlight` plugin has [`prismjs`](https://prismjs.com/) as a de
 
 ```js
 import 'prismjs/themes/prism.css';
-import '@toast-ui/editor-plugin-code-syntax-highlight/dist/toastui-editor-plugin-code-syntax-highlight.css';
+import '@drenso-toast-ui/editor-plugin-code-syntax-highlight/dist/toastui-editor-plugin-code-syntax-highlight.css';
 
-import codeSyntaxHighlight from '@toast-ui/editor-plugin-code-syntax-highlight';
+import codeSyntaxHighlight from '@drenso-toast-ui/editor-plugin-code-syntax-highlight';
 ```
 
 #### CommonJS
 
 ```js
 require('prismjs/themes/prism.css');
-require('@toast-ui/editor-plugin-code-syntax-highlight/dist/toastui-editor-plugin-code-syntax-highlight.css');
+require('@drenso-toast-ui/editor-plugin-code-syntax-highlight/dist/toastui-editor-plugin-code-syntax-highlight.css');
 
-const codeSyntaxHighlight = require('@toast-ui/editor-plugin-code-syntax-highlight');
+const codeSyntaxHighlight = require('@drenso-toast-ui/editor-plugin-code-syntax-highlight');
 ```
 
 ### Create Instance
@@ -90,10 +90,10 @@ The main bundle file of `prismjs` contains just several language pack it support
 ```js
 // ...
 import 'prismjs/themes/prism.css';
-import '@toast-ui/editor-plugin-code-syntax-highlight/dist/toastui-editor-plugin-code-syntax-highlight.css';
+import '@drenso-toast-ui/editor-plugin-code-syntax-highlight/dist/toastui-editor-plugin-code-syntax-highlight.css';
 
-import Editor from '@toast-ui/editor';
-import codeSyntaxHighlight from '@toast-ui/editor-plugin-code-syntax-highlight/dist/toastui-editor-plugin-code-syntax-highlight-all.js';
+import Editor from '@drenso-toast-ui/editor';
+import codeSyntaxHighlight from '@drenso-toast-ui/editor-plugin-code-syntax-highlight/dist/toastui-editor-plugin-code-syntax-highlight-all.js';
 
 
 const editor = new Editor({
@@ -109,7 +109,7 @@ You need to import the language files you want to use in the code block and regi
 ```js
 // ...
 import 'prismjs/themes/prism.css';
-import '@toast-ui/editor-plugin-code-syntax-highlight/dist/toastui-editor-plugin-code-syntax-highlight.css';
+import '@drenso-toast-ui/editor-plugin-code-syntax-highlight/dist/toastui-editor-plugin-code-syntax-highlight.css';
 
 // Step 1. Import prismjs
 import Prism from 'prismjs';
@@ -117,8 +117,8 @@ import Prism from 'prismjs';
 // Step 2. Import language files of prismjs that you need
 import 'prismjs/components/prism-clojure.js';
 
-import Editor from '@toast-ui/editor';
-import codeSyntaxHighlight from '@toast-ui/editor-plugin-code-syntax-highlight';
+import Editor from '@drenso-toast-ui/editor';
+import codeSyntaxHighlight from '@drenso-toast-ui/editor-plugin-code-syntax-highlight';
 
 const editor = new Editor({
   // ...
@@ -133,13 +133,13 @@ As with creating an editor instance, you need to import `prismjs` and pass it to
 ```js
 // ...
 import 'prismjs/themes/prism.css';
-import '@toast-ui/editor-plugin-code-syntax-highlight/dist/toastui-editor-plugin-code-syntax-highlight.css';
+import '@drenso-toast-ui/editor-plugin-code-syntax-highlight/dist/toastui-editor-plugin-code-syntax-highlight.css';
 
 // Import prismjs
 import Prism from 'prismjs';
 
-import Viewer from '@toast-ui/editor/dist/toastui-editor-viewer';
-import codeSyntaxHighlight from '@toast-ui/editor-plugin-code-syntax-highlight';
+import Viewer from '@drenso-toast-ui/editor/dist/toastui-editor-viewer';
+import codeSyntaxHighlight from '@drenso-toast-ui/editor-plugin-code-syntax-highlight';
 
 
 const viewer = new Viewer({
@@ -153,13 +153,13 @@ or
 ```js
 // ...
 import 'prismjs/themes/prism.css';
-import '@toast-ui/editor-plugin-code-syntax-highlight/dist/toastui-editor-plugin-code-syntax-highlight.css';
+import '@drenso-toast-ui/editor-plugin-code-syntax-highlight/dist/toastui-editor-plugin-code-syntax-highlight.css';
 
 // Import prismjs
 import Prism from 'prismjs';
 
-import Editor from '@toast-ui/editor';
-import codeSyntaxHighlight from '@toast-ui/editor-plugin-code-syntax-highlight';
+import Editor from '@drenso-toast-ui/editor';
+import codeSyntaxHighlight from '@drenso-toast-ui/editor-plugin-code-syntax-highlight';
 
 const viewer = Editor.factory({
   // ...
@@ -172,7 +172,7 @@ const viewer = Editor.factory({
 
 ### Include Files
 
-To use the plugin, the CDN files(CSS, Script) of `@toast-ui/editor` must be included.
+To use the plugin, the CDN files(CSS, Script) of `@drenso-toast-ui/editor` must be included.
 
 ### Create Instance
 

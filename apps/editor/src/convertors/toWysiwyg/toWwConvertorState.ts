@@ -1,5 +1,5 @@
 import { Schema, Node, NodeType, Mark, MarkType, DOMParser } from 'prosemirror-model';
-import { MdNode } from '@toast-ui/toastmark';
+import { MdNode } from '@drenso-toast-ui/toastmark';
 
 import { ToWwConvertorMap, StackItem, Attrs, InfoForPosSync } from '@t/convertor';
 import { last } from '@/utils/common';

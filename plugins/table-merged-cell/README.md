@@ -2,7 +2,7 @@
 
 > This is a plugin of [TOAST UI Editor](https://github.com/nhn/tui.editor/tree/master/apps/editor) to merge table columns.
 
-[![npm version](https://img.shields.io/npm/v/@toast-ui/editor-plugin-table-merged-cell.svg)](https://www.npmjs.com/package/@toast-ui/editor-plugin-table-merged-cell)
+[![npm version](https://img.shields.io/npm/v/@drenso-toast-ui/editor-plugin-table-merged-cell.svg)](https://www.npmjs.com/package/@drenso-toast-ui/editor-plugin-table-merged-cell)
 
 ![table-merged-cell](https://user-images.githubusercontent.com/37766175/121814008-c0232480-cca9-11eb-8611-7ccc0fe8707f.png)
 
@@ -18,7 +18,7 @@
 
 ```
 - node_modules/
-  - @toast-ui/
+  - @drenso-toast-ui/
     - editor-plugin-table-merged-cell/
       - dist/
         - toastui-editor-plugin-table-merged-cell.js
@@ -41,14 +41,14 @@ The bundle files include all dependencies of this plugin.
 
 ## 📦 Usage npm
 
-To use the plugin, [`@toast-ui/editor`](https://github.com/nhn/tui.editor/tree/master/apps/editor) must be installed.
+To use the plugin, [`@drenso-toast-ui/editor`](https://github.com/nhn/tui.editor/tree/master/apps/editor) must be installed.
 
 > Ref. [Getting Started](https://github.com/nhn/tui.editor/blob/master/docs/en/getting-started.md)
 
 ### Install
 
 ```sh
-$ npm install @toast-ui/editor-plugin-table-merged-cell
+$ npm install @drenso-toast-ui/editor-plugin-table-merged-cell
 ```
 
 ### Import Plugin
@@ -56,17 +56,17 @@ $ npm install @toast-ui/editor-plugin-table-merged-cell
 #### ES Modules
 
 ```js
-import '@toast-ui/editor-plugin-table-merged-cell/dist/toastui-editor-plugin-table-merged-cell.css';
+import '@drenso-toast-ui/editor-plugin-table-merged-cell/dist/toastui-editor-plugin-table-merged-cell.css';
 
-import tableMergedCell from '@toast-ui/editor-plugin-table-merged-cell';
+import tableMergedCell from '@drenso-toast-ui/editor-plugin-table-merged-cell';
 ```
 
 #### CommonJS
 
 ```js
-require('@toast-ui/editor-plugin-table-merged-cell/dist/toastui-editor-plugin-table-merged-cell.css');
+require('@drenso-toast-ui/editor-plugin-table-merged-cell/dist/toastui-editor-plugin-table-merged-cell.css');
 
-const tableMergedCell = require('@toast-ui/editor-plugin-table-merged-cell');
+const tableMergedCell = require('@drenso-toast-ui/editor-plugin-table-merged-cell');
 ```
 
 ### Create Instance
@@ -74,10 +74,10 @@ const tableMergedCell = require('@toast-ui/editor-plugin-table-merged-cell');
 #### Basic
 
 ```js
-import '@toast-ui/editor-plugin-table-merged-cell/dist/toastui-editor-plugin-table-merged-cell.css';
+import '@drenso-toast-ui/editor-plugin-table-merged-cell/dist/toastui-editor-plugin-table-merged-cell.css';
 
-import Editor from '@toast-ui/editor';
-import tableMergedCell from '@toast-ui/editor-plugin-table-merged-cell';
+import Editor from '@drenso-toast-ui/editor';
+import tableMergedCell from '@drenso-toast-ui/editor-plugin-table-merged-cell';
 
 const editor = new Editor({
   // ...
@@ -88,10 +88,10 @@ const editor = new Editor({
 #### With Viewer
 
 ```js
-import '@toast-ui/editor-plugin-table-merged-cell/dist/toastui-editor-plugin-table-merged-cell.css';
+import '@drenso-toast-ui/editor-plugin-table-merged-cell/dist/toastui-editor-plugin-table-merged-cell.css';
 
-import Viewer from '@toast-ui/editor/dist/toastui-editor-viewer';
-import tableMergedCell from '@toast-ui/editor-plugin-table-merged-cell';
+import Viewer from '@drenso-toast-ui/editor/dist/toastui-editor-viewer';
+import tableMergedCell from '@drenso-toast-ui/editor-plugin-table-merged-cell';
 
 const viewer = new Viewer({
   // ...
@@ -102,10 +102,10 @@ const viewer = new Viewer({
 or
 
 ```js
-import '@toast-ui/editor-plugin-table-merged-cell/dist/toastui-editor-plugin-table-merged-cell.css';
+import '@drenso-toast-ui/editor-plugin-table-merged-cell/dist/toastui-editor-plugin-table-merged-cell.css';
 
-import Editor from '@toast-ui/editor';
-import tableMergedCell from '@toast-ui/editor-plugin-table-merged-cell';
+import Editor from '@drenso-toast-ui/editor';
+import tableMergedCell from '@drenso-toast-ui/editor-plugin-table-merged-cell';
 
 const viewer = Editor.factory({
   // ...
@@ -116,7 +116,7 @@ const viewer = Editor.factory({
 
 ## 🗂 Usage CDN
 
-To use the plugin, the CDN files(CSS, Script) of `@toast-ui/editor` must be included.
+To use the plugin, the CDN files(CSS, Script) of `@drenso-toast-ui/editor` must be included.
 
 ### Include Files
 

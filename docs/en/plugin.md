@@ -6,11 +6,11 @@ TOAST UI Editor (henceforth referred to as 'Editor') provides a plugin. Plugin i
 
 | Plugin Name | Package Name | Description |
 | --- | --- | --- |
-| [`chart`](https://github.com/nhn/tui.editor/tree/master/plugins/chart) | [`@toast-ui/editor-plugin-chart`](https://www.npmjs.com/package/@toast-ui/editor-plugin-chart) | Plugin to render chart |
-| [`code-syntax-highlight`](https://github.com/nhn/tui.editor/tree/master/plugins/code-syntax-highlight) | [`@toast-ui/editor-plugin-code-syntax-highlight`](https://www.npmjs.com/package/@toast-ui/editor-plugin-code-syntax-highlight) | Plugin to highlight code syntax |
-| [`color-syntax`](https://github.com/nhn/tui.editor/tree/master/plugins/color-syntax) | [`@toast-ui/editor-plugin-color-syntax`](https://www.npmjs.com/package/@toast-ui/editor-plugin-color-syntax) | Plugin to color editing text |
-| [`table-merged-cell`](https://github.com/nhn/tui.editor/tree/master/plugins/table-merged-cell) | [`@toast-ui/editor-plugin-table-merged-cell`](https://www.npmjs.com/package/@toast-ui/editor-plugin-table-merged-cell) | Plugin to merge table cells |
-| [`uml`](https://github.com/nhn/tui.editor/tree/master/plugins/uml) | [`@toast-ui/editor-plugin-uml`](https://www.npmjs.com/package/@toast-ui/editor-plugin-uml) | Plugin to render UML |
+| [`chart`](https://github.com/nhn/tui.editor/tree/master/plugins/chart) | [`@drenso-toast-ui/editor-plugin-chart`](https://www.npmjs.com/package/@drenso-toast-ui/editor-plugin-chart) | Plugin to render chart |
+| [`code-syntax-highlight`](https://github.com/nhn/tui.editor/tree/master/plugins/code-syntax-highlight) | [`@drenso-toast-ui/editor-plugin-code-syntax-highlight`](https://www.npmjs.com/package/@drenso-toast-ui/editor-plugin-code-syntax-highlight) | Plugin to highlight code syntax |
+| [`color-syntax`](https://github.com/nhn/tui.editor/tree/master/plugins/color-syntax) | [`@drenso-toast-ui/editor-plugin-color-syntax`](https://www.npmjs.com/package/@drenso-toast-ui/editor-plugin-color-syntax) | Plugin to color editing text |
+| [`table-merged-cell`](https://github.com/nhn/tui.editor/tree/master/plugins/table-merged-cell) | [`@drenso-toast-ui/editor-plugin-table-merged-cell`](https://www.npmjs.com/package/@drenso-toast-ui/editor-plugin-table-merged-cell) | Plugin to merge table cells |
+| [`uml`](https://github.com/nhn/tui.editor/tree/master/plugins/uml) | [`@drenso-toast-ui/editor-plugin-uml`](https://www.npmjs.com/package/@drenso-toast-ui/editor-plugin-uml) | Plugin to render UML |
 
 ## How to Use Plugin
 
@@ -18,18 +18,18 @@ Each plugin can be installed and used with npm, or it can be used as provided CD
 
 ### Via Package Manager (npm)
 
-You can install each plugin using the command, and add the name of the plugin you want to install to `${pluginName}` below. For example, if you install the `chart` plugin, install it as`npm install @toast-ui/editor-plugin-chart`.
+You can install each plugin using the command, and add the name of the plugin you want to install to `${pluginName}` below. For example, if you install the `chart` plugin, install it as`npm install @drenso-toast-ui/editor-plugin-chart`.
 
 ```sh
-$ npm install --save @toast-ui/editor-plugin-${pluginName} # Latest Version
-$ npm install --save @toast-ui/editor-plugin-${pluginName}@<version> # Specific Version
+$ npm install --save @drenso-toast-ui/editor-plugin-${pluginName} # Latest Version
+$ npm install --save @drenso-toast-ui/editor-plugin-${pluginName}@<version> # Specific Version
 ```
 
 When installed and used with npm, the list of files that can be imported is as follows:
 
 ```
 - node_modules/
-   ├─ @toast-ui/editor-plugin-${pluginName}
+   ├─ @drenso-toast-ui/editor-plugin-${pluginName}
    │     ├─ dist/
    │     │    ├─ toastui-editor-plugin-${pluginName}.js
    │     │    ├─ ...
@@ -40,19 +40,19 @@ Installed plugins can be imported as shown below depending on the environment.
 - ES Module
 
 ```js
-import pluginFn from '@toast-ui/editor-plugin-${pluginName}';
+import pluginFn from '@drenso-toast-ui/editor-plugin-${pluginName}';
 ```
 
 - CommonJS
 
 ```js
-const pluginFn = require('@toast-ui/editor-plugin-${pluginName}');
+const pluginFn = require('@drenso-toast-ui/editor-plugin-${pluginName}');
 ```
 
 For example, `chart` plugin can be imported as follows:
 
 ```js
-import chart from '@toast-ui/editor-plugin-chart';
+import chart from '@drenso-toast-ui/editor-plugin-chart';
 ```
 ### Via Contents Delivery Network (CDN)
 
@@ -111,9 +111,9 @@ For example, if you add the `chart` and `uml` plugin, you can do something like 
 - ES Module
 
 ```js
-import Editor from '@toast-ui/editor';
-import chart from '@toast-ui/editor-plugin-chart';
-import uml from '@toast-ui/editor-plugin-uml';
+import Editor from '@drenso-toast-ui/editor';
+import chart from '@drenso-toast-ui/editor-plugin-chart';
+import uml from '@drenso-toast-ui/editor-plugin-uml';
 
 const editor = new Editor({
   // ...
@@ -361,7 +361,7 @@ The method of using this option object is the same as the `nodeView` definition 
 Plugin functions can use some information with `context` parameters to define the various properties described above. The `context` parameter contains the following properties.
 
 * `eventEmitter`: It is the same as `eventEmitter` in an editor. It is used to communicate with the editor.
-* `usageStatistics`: It decides whether to collect the plugin as GA for `@toast-ui/editor`.
+* `usageStatistics`: It decides whether to collect the plugin as GA for `@drenso-toast-ui/editor`.
 * `i18n`: It is an instance for adding i18n.
 * `pmState`: Some modules of [prosmirror-state] (https://prosemirror.net/docs/ref/#state).
 * `pmView`: Some modules of [prosemirror-view](https://prosemirror.net/docs/ref/#view).

@@ -1,6 +1,6 @@
 import type { ResolvedPos, Node, Schema } from 'prosemirror-model';
 import type { Selection } from 'prosemirror-state';
-import type { PluginContext } from '@toast-ui/editor';
+import type { PluginContext } from '@drenso-toast-ui/editor';
 import type { CellSelection, SelectionInfo } from '@t/index';
 
 export function findNodeBy(pos: ResolvedPos, condition: (node: Node, depth: number) => boolean) {

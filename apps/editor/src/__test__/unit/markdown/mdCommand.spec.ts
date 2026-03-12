@@ -1,6 +1,6 @@
 import { oneLineTrim, source, stripIndent } from 'common-tags';
 import { undo } from 'prosemirror-history';
-import { ToastMark } from '@toast-ui/toastmark';
+import { ToastMark } from '@drenso-toast-ui/toastmark';
 import MarkdownEditor from '@/markdown/mdEditor';
 import MarkdownPreview from '@/markdown/mdPreview';
 import EventEmitter from '@/event/eventEmitter';

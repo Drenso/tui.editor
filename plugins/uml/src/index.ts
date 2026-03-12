@@ -5,8 +5,8 @@
 import plantumlEncoder from 'plantuml-encoder';
 import { PluginOptions } from '../index';
 
-import type { MdNode, PluginContext, PluginInfo } from '@toast-ui/editor';
-import type { HTMLToken } from '@toast-ui/toastmark';
+import type { MdNode, PluginContext, PluginInfo } from '@drenso-toast-ui/editor';
+import type { HTMLToken } from '@drenso-toast-ui/toastmark';
 
 const DEFAULT_RENDERER_URL = '//www.plantuml.com/plantuml/png/';
 

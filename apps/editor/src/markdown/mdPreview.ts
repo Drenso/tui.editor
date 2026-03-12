@@ -3,7 +3,7 @@ import addClass from 'tui-code-snippet/domUtil/addClass';
 import removeClass from 'tui-code-snippet/domUtil/removeClass';
 import on from 'tui-code-snippet/domEvent/on';
 import css from 'tui-code-snippet/domUtil/css';
-import { EditResult, MdNode, MdPos, Renderer } from '@toast-ui/toastmark';
+import { EditResult, MdNode, MdPos, Renderer } from '@drenso-toast-ui/toastmark';
 
 import { Emitter } from '@t/event';
 import { CustomHTMLRenderer, LinkAttributes } from '@t/editor';

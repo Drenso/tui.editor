@@ -5,7 +5,7 @@ import isString from 'tui-code-snippet/type/isString';
 
 import { flatten } from '@/utils/common';
 
-import type { PluginContext } from '@toast-ui/editor';
+import type { PluginContext } from '@drenso-toast-ui/editor';
 import { PrismJs } from '@t/index';
 
 interface ChildNodeInfo {

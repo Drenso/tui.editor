@@ -1,4 +1,4 @@
-import { MdNode, MdPos } from '@toast-ui/toastmark';
+import { MdNode, MdPos } from '@drenso-toast-ui/toastmark';
 import { Plugin } from 'prosemirror-state';
 import { MdContext } from '@t/spec';
 import { ToolbarStateMap, ToolbarStateKeys } from '@t/ui';

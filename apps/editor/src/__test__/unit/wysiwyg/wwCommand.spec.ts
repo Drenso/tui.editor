@@ -8,7 +8,7 @@ import CommandManager from '@/commands/commandManager';
 import { WwToDOMAdaptor } from '@/wysiwyg/adaptor/wwToDOMAdaptor';
 import { cls } from '@/utils/dom';
 
-import type { HTMLConvertorMap } from '@toast-ui/toastmark';
+import type { HTMLConvertorMap } from '@drenso-toast-ui/toastmark';
 
 const CODE_BLOCK_CLS = cls('ww-code-block');
 
