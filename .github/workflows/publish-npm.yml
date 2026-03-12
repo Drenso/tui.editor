@@ -5,7 +5,7 @@ jobs:
     name: Check package version
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v6
       - name: Check package version
         id: check
         uses: PostHog/check-package-version@v2
@@ -20,9 +20,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout branch
-        uses: actions/checkout@v2
+        uses: actions/checkout@v6
       - name: Use Node.js 22.x
-        uses: actions/setup-node@v2.5.1
+        uses: actions/setup-node@v6
         with:
           node-version: '22.x'
       - name: Install
@@ -40,9 +40,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout branch
-        uses: actions/checkout@v2
+        uses: actions/checkout@v6
       - name: Use Node.js 22.x
-        uses: actions/setup-node@v2.5.1
+        uses: actions/setup-node@v6
         with:
           node-version: '22.x'
       - name: Install
@@ -63,9 +63,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout branch
-        uses: actions/checkout@v2
+        uses: actions/checkout@v6
       - name: Use Node.js 22.x
-        uses: actions/setup-node@v2.5.1
+        uses: actions/setup-node@v6
         with:
           node-version: '22.x'
       - name: Install
@@ -95,14 +95,14 @@ jobs:
     runs-on: ubuntu-latest
     needs: [pre-check, test, plugin-test]
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v6
       - name: Check the package version
         id: check
         uses: PostHog/check-package-version@v2
         with:
           path: ./apps/editor/
       - name: Use Node.js 22.x
-        uses: actions/setup-node@v2.5.1
+        uses: actions/setup-node@v6
         with:
           node-version: '22.x'
           registry-url: https://registry.npmjs.org/
