@@ -32,7 +32,7 @@
   "devDependencies": {
     "@types/react": "^17.0.3",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^19.2.4"
   },
   "dependencies": {
     "@drenso-toast-ui/editor": "^3.3.1"
