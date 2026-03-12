@@ -50,7 +50,7 @@ Unsure where to begin contributing to TOAST UI? You can start by looking through
 - Checkout our repository
 - Install dependencies by `npm install`
 - Build toastmark by `npm run build toastmark`
-- Start snowpack-dev-server by `npm run serve`
+- Start webpack-dev-server by `npm run serve`
 
 ### Make changes
 #### Checkout a branch

@@ -60,7 +60,7 @@ function writeData(dir) {
 
 const data = writeData(directory);
 
-fs.writeFile(`snowpack/examples/${fileName}`, data, 'utf8', (err) => {
+fs.writeFile(`webpack/examples/${fileName}`, data, 'utf8', (err) => {
   if (err) {
     console.error(err);
   } else {

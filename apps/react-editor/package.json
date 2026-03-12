@@ -11,7 +11,7 @@
   "scripts": {
     "test:types": "tsc",
     "lint": "eslint .",
-    "serve": "snowpack dev",
+    "serve": "webpack serve",
     "build": "webpack build && rollup -c"
   },
   "homepage": "https://ui.toast.com",

@@ -141,18 +141,11 @@ $ npm run test editor
 
 You can see your code reflected as soon as you save the code by running a server. Don't miss adding test cases and then make green rights.
 
-#### Run snowpack-dev-server
-[snowpack](https://www.snowpack.dev/) allows you to run a development server without bundling.
+#### Run webpack-dev-server
+[webpack](https://webpack.js.org/) allows you to run a development server.
 
 ``` sh
 $ npm run serve editor
-```
-
-#### Run webpack-dev-server
-If testing of legacy browsers is required, the development server can still be run using a [webpack](https://webpack.js.org/).
-
-``` sh
-$ npm run serve:ie editor
 ```
 
 #### Run test

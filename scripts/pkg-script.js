@@ -51,7 +51,7 @@ Object.keys(options).forEach((key) => {
 
 if (!script) {
   throw new Error(
-    `You should choose "lint", "test", "test:types", "serve", "serve:ie", "build" as the type of script`
+    `You should choose "lint", "test", "test:types", "serve", "build" as the type of script`
   );
 }
 

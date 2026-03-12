@@ -37,8 +37,7 @@
     "test:types": "tsc",
     "test": "jest --watch",
     "test:ci": "jest",
-    "serve": "snowpack dev",
-    "serve:ie": "webpack serve",
+    "serve": "webpack serve",
     "build:cdn": "webpack build --env cdn & webpack build --env cdn minify",
     "build": "webpack build && npm run build:cdn"
   },
