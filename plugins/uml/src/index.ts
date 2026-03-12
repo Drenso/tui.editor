@@ -19,7 +19,7 @@ function createUMLTokens(text: string, rendererURL: string): HTMLToken[] {
     }
     renderedHTML = `<img src="${rendererURL}${plantumlEncoder.encode(text)}" />`;
   } catch (err) {
-    renderedHTML = `Error occurred on encoding uml: ${err.message}`;
+    renderedHTML = `Error occurred on encoding uml: ${(err as Error).message}`;
   }
 
   return [
