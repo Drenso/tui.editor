@@ -117,6 +117,8 @@ jobs:
         run: |
           npm run build toastmark
           npm run build editor
+          npm run build react
+          npm run build vue
       - name: Generate Github Release
         uses: softprops/action-gh-release@v2
         with:
@@ -124,6 +126,18 @@ jobs:
           tag_name: v${{ steps.check.outputs.committed-version }}
       - name: Npm Publish (editor)
         working-directory: ./apps/editor
+        run: |
+          npm publish --provenance --access public
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
+      - name: Npm Publish (react)
+        working-directory: ./apps/react-editor
+        run: |
+          npm publish --provenance --access public
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
+      - name: Npm Publish (vue)
+        working-directory: ./apps/vue-editor
         run: |
           npm publish --provenance --access public
         env:
