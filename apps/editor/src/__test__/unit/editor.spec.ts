@@ -941,7 +941,7 @@ describe('editor', () => {
           },
         });
 
-        expect(getPreviewHTML()).toBe('<p><a target="_blank" href="nhn.com">Hello</a></p>');
+        expect(getPreviewHTML()).toBe('<p><a href="nhn.com" target="_blank">Hello</a></p>');
       });
 
       it('should render html block node regardless of the sanitizer', () => {
@@ -955,7 +955,7 @@ describe('editor', () => {
         });
 
         const result = oneLineTrim`
-          <iframe src="https://www.youtube.com/embed/XyenY12fzAk" height="315" width="420"></iframe>
+          <iframe width="420" height="315" src="https://www.youtube.com/embed/XyenY12fzAk"></iframe>
           <p>test</p>
         `;
 

@@ -65,7 +65,7 @@ describe('Viewer', () => {
     );
 
     const expected =
-      '<iframe width="420" height="315" src="https://www.youtube.com/embed/XyenY12fzAk"></iframe>';
+      '<iframe src="https://www.youtube.com/embed/XyenY12fzAk" height="315" width="420"></iframe>';
 
     expect(getViewerHTML()).toBe(expected);
   });

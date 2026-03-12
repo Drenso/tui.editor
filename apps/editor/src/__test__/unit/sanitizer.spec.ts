@@ -100,7 +100,7 @@ describe('sanitizeHTML', () => {
         registerTagWhitelistIfPossible('iframe');
 
         expect(sanitizeHTML('<iframe src=""></iframe>')).toBe('<iframe src=""></iframe>');
-        expect(sanitizeHTML('<embed type="image/jpg" src="">')).toBe(
+        expect(sanitizeHTML('<embed src="" type="image/jpg">')).toBe(
           '<embed src="" type="image/jpg">'
         );
       });

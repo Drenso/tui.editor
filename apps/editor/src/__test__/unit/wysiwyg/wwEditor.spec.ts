@@ -175,7 +175,7 @@ describe('WysiwygEditor', () => {
     );
 
     assertToContainHTML(
-      '<iframe src="https://www.youtube.com/embed/XyenY12fzAk" height="315" width="420" class="html-block ProseMirror-selectednode" draggable="true"></iframe>'
+      '<iframe width="420" height="315" src="https://www.youtube.com/embed/XyenY12fzAk" class="html-block ProseMirror-selectednode" draggable="true"></iframe>'
     );
   });
 
@@ -189,7 +189,7 @@ describe('WysiwygEditor', () => {
     setContent('<iframe width="420" height="315" src="javascript: alert(1);"></iframe>');
 
     assertToContainHTML(
-      '<iframe height="315" width="420" class="html-block ProseMirror-selectednode" draggable="true"></iframe>'
+      '<iframe width="420" height="315" class="html-block ProseMirror-selectednode" draggable="true"></iframe>'
     );
   });
 });

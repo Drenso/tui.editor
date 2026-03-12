@@ -966,7 +966,7 @@ describe('Convertor', () => {
       const markdown =
         '<iframe src="https://www.youtube.com/embed/XyenY12fzAk" height="315" width="420"></iframe>';
       const expected =
-        '<iframe width="420" height="315" src="https://www.youtube.com/embed/XyenY12fzAk"></iframe>';
+        '<iframe src="https://www.youtube.com/embed/XyenY12fzAk" height="315" width="420"></iframe>';
 
       assertConverting(markdown, expected);
     });
@@ -975,7 +975,7 @@ describe('Convertor', () => {
       const markdown =
         '<iframe src="//player.bilibili.com/player.html?aid=588782532&bvid=BV1hB4y1K7ro&cid=360826679&page=1" height="315" width="420"></iframe>';
       const expected =
-        '<iframe width="420" height="315" src="//player.bilibili.com/player.html?aid=588782532&amp;bvid=BV1hB4y1K7ro&amp;cid=360826679&amp;page=1"></iframe>';
+        '<iframe src="//player.bilibili.com/player.html?aid=588782532&amp;bvid=BV1hB4y1K7ro&amp;cid=360826679&amp;page=1" height="315" width="420"></iframe>';
 
       assertConverting(markdown, expected);
     });
@@ -991,7 +991,7 @@ describe('Convertor', () => {
       const expected = source`
         para1
 
-        <iframe height="315" width="420" src="https://www.youtube.com/embed/XyenY12fzAk"></iframe>
+        <iframe src="https://www.youtube.com/embed/XyenY12fzAk" width="420" height="315"></iframe>
 
         para2
       `;
