@@ -38,6 +38,10 @@ export default [
       sourcemap: false,
     },
     plugins: [vue({}), commonjs(), nodeResolve(), transpile(), banner(bannerText)],
-    external: ['vue', '@drenso-toast-ui/editor', '@drenso-toast-ui/editor/dist/toastui-editor-viewer'],
+    external: [
+      'vue',
+      '@drenso-toast-ui/editor',
+      '@drenso-toast-ui/editor/dist/toastui-editor-viewer',
+    ],
   },
 ];
