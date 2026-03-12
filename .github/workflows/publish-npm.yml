@@ -21,10 +21,10 @@ jobs:
     steps:
       - name: Checkout branch
         uses: actions/checkout@v6
-      - name: Use Node.js 22.x
+      - name: Use Node.js 24.x
         uses: actions/setup-node@v6
         with:
-          node-version: '22.x'
+          node-version: '24.x'
       - name: Install
         run: |
           npm ci
@@ -41,10 +41,10 @@ jobs:
     steps:
       - name: Checkout branch
         uses: actions/checkout@v6
-      - name: Use Node.js 22.x
+      - name: Use Node.js 24.x
         uses: actions/setup-node@v6
         with:
-          node-version: '22.x'
+          node-version: '24.x'
       - name: Install
         run: |
           npm ci
@@ -64,10 +64,10 @@ jobs:
     steps:
       - name: Checkout branch
         uses: actions/checkout@v6
-      - name: Use Node.js 22.x
+      - name: Use Node.js 24.x
         uses: actions/setup-node@v6
         with:
-          node-version: '22.x'
+          node-version: '24.x'
       - name: Install
         run: |
           npm ci
@@ -101,10 +101,10 @@ jobs:
         uses: PostHog/check-package-version@v2
         with:
           path: ./apps/editor/
-      - name: Use Node.js 22.x
+      - name: Use Node.js 24.x
         uses: actions/setup-node@v6
         with:
-          node-version: '22.x'
+          node-version: '24.x'
           registry-url: https://registry.npmjs.org/
       - name: Install
         run: |
