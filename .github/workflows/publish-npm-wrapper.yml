@@ -83,11 +83,11 @@ jobs:
     needs: [pre-check, test, plugin-test]
     steps:
       - uses: actions/checkout@v6
-#      - name: Check the package version
-#        id: check
-#        uses: PostHog/check-package-version@v2
-#        with:
-#          path: ./apps/editor/
+      - name: Check the package version
+        id: check
+        uses: PostHog/check-package-version@v2
+        with:
+          path: ./apps/editor/
       - name: Use Node.js 24.x
         uses: actions/setup-node@v6
         with:

@@ -1,22 +1,22 @@
 name: Npm Publish
 on: [workflow_dispatch]
 jobs:
-#  checkVersion:
-#    name: Check package version
-#    runs-on: ubuntu-latest
-#    steps:
-#      - uses: actions/checkout@v6
-#      - name: Check package version
-#        id: check
-#        uses: PostHog/check-package-version@v2
-#        with:
-#          path: ./apps/editor/
-#      - name: Cancel when unchanged
-#        uses: andymckay/cancel-action@0.2
-#        if: steps.check.outputs.is-new-version == 'false'
+  checkVersion:
+    name: Check package version
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: Check package version
+        id: check
+        uses: PostHog/check-package-version@v2
+        with:
+          path: ./apps/editor/
+      - name: Cancel when unchanged
+        uses: andymckay/cancel-action@0.2
+        if: steps.check.outputs.is-new-version == 'false'
 
   pre-check:
-#    needs: [checkVersion]
+    needs: [checkVersion]
     runs-on: ubuntu-latest
     steps:
       - name: Checkout branch
@@ -36,7 +36,7 @@ jobs:
           npm run test:types:all
 
   test:
-#    needs: [checkVersion]
+    needs: [checkVersion]
     runs-on: ubuntu-latest
     steps:
       - name: Checkout branch
@@ -59,7 +59,7 @@ jobs:
           npm run test:ci editor
 
   plugin-test:
-#    needs: [checkVersion]
+    needs: [checkVersion]
     runs-on: ubuntu-latest
     steps:
       - name: Checkout branch
@@ -100,11 +100,11 @@ jobs:
     needs: [pre-check, test, plugin-test]
     steps:
       - uses: actions/checkout@v6
-#      - name: Check the package version
-#        id: check
-#        uses: PostHog/check-package-version@v2
-#        with:
-#          path: ./apps/editor/
+      - name: Check the package version
+        id: check
+        uses: PostHog/check-package-version@v2
+        with:
+          path: ./apps/editor/
       - name: Use Node.js 24.x
         uses: actions/setup-node@v6
         with:
@@ -121,9 +121,8 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           make_latest: true
-#          tag_name: v${{ steps.check.outputs.committed-version }}
-          tag_name: v3.3.0
-      - name: Npm Publish(editor)
+          tag_name: v${{ steps.check.outputs.committed-version }}
+      - name: Npm Publish (editor)
         working-directory: ./apps/editor
         run: |
           npm publish --provenance --access public
