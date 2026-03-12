@@ -113,32 +113,43 @@ jobs:
       - name: Install
         run: |
           npm ci
-      - name: Build
+      - name: Build packages
         run: |
-          npm run build toastmark
-          npm run build editor
-          npm run build react
-          npm run build vue
+          items=(
+            "toastmark"
+            "editor"
+            "react"
+            "vue"
+            "chart"
+            "color"
+            "code"
+            "table"
+            "uml"
+          )
+          for item in "${items[@]}"; do
+            npm run build ${item}
+          done
       - name: Generate Github Release
         uses: softprops/action-gh-release@v2
         with:
           make_latest: true
           tag_name: v${{ steps.check.outputs.committed-version }}
-      - name: Npm Publish (editor)
-        working-directory: ./apps/editor
+      - name: Npm Publish
         run: |
-          npm publish --provenance --access public
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
-      - name: Npm Publish (react)
-        working-directory: ./apps/react-editor
-        run: |
-          npm publish --provenance --access public
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
-      - name: Npm Publish (vue)
-        working-directory: ./apps/vue-editor
-        run: |
-          npm publish --provenance --access public
+          items=(
+            "./apps/editor"
+            "./apps/react-editor"
+            "./apps/vue-editor"
+            "./plugins/chart"
+            "./plugins/code-syntax-highlight"
+            "./plugins/color-syntax"
+            "./plugins/table-merged-cell"
+            "./plugins/uml"
+          )
+          for item in "${items[@]}"; do
+            cd ${item}
+            npm publish --provenance --access public
+            cd -
+          done
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
