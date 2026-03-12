@@ -26,7 +26,7 @@ import Chart, {
   BarChart,
   PieChart,
   ColumnChart,
-} from '@drenso-toast-ui/chart';
+} from '@toast-ui/chart';
 import isString from 'tui-code-snippet/type/isString';
 import isUndefined from 'tui-code-snippet/type/isUndefined';
 import inArray from 'tui-code-snippet/array/inArray';

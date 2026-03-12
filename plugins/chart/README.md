@@ -55,7 +55,7 @@ Along with the plugin, the plugin's dependency style must be imported. The `char
 #### ES Modules
 
 ```js
-import '@drenso-toast-ui/chart/dist/toastui-chart.css';
+import '@toast-ui/chart/dist/toastui-chart.css';
 
 import chart from '@drenso-toast-ui/editor-plugin-chart';
 ```
@@ -63,7 +63,7 @@ import chart from '@drenso-toast-ui/editor-plugin-chart';
 #### CommonJS
 
 ```js
-require('@drenso-toast-ui/chart/dist/toastui-chart.css');
+require('@toast-ui/chart/dist/toastui-chart.css');
 
 const chart = require('@drenso-toast-ui/editor-plugin-chart');
 ```
@@ -74,7 +74,7 @@ const chart = require('@drenso-toast-ui/editor-plugin-chart');
 
 ```js
 // ...
-import '@drenso-toast-ui/chart/dist/toastui-chart.css';
+import '@toast-ui/chart/dist/toastui-chart.css';
 
 import Editor from '@drenso-toast-ui/editor';
 import chart from '@drenso-toast-ui/editor-plugin-chart';
@@ -89,7 +89,7 @@ const editor = new Editor({
 
 ```js
 // ...
-import '@drenso-toast-ui/chart/dist/toastui-chart.css';
+import '@toast-ui/chart/dist/toastui-chart.css';
 
 import Viewer from '@drenso-toast-ui/editor/dist/toastui-editor-viewer';
 import chart from '@drenso-toast-ui/editor-plugin-chart';
@@ -104,7 +104,7 @@ or
 
 ```js
 // ...
-import '@drenso-toast-ui/chart/dist/toastui-chart.css';
+import '@toast-ui/chart/dist/toastui-chart.css';
 
 import Editor from '@drenso-toast-ui/editor';
 import chart from '@drenso-toast-ui/editor-plugin-chart';
@@ -198,7 +198,7 @@ These options are used to set the dimensions of the chart drawn in the editor.
 
 ```js
 // ...
-import '@drenso-toast-ui/chart/dist/toastui-chart.css';
+import '@toast-ui/chart/dist/toastui-chart.css';
 
 import Editor from '@drenso-toast-ui/editor';
 import chart from '@drenso-toast-ui/editor-plugin-chart';

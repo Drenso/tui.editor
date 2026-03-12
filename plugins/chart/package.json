@@ -47,7 +47,7 @@
     "stream-browserify": "^3.0.0"
   },
   "dependencies": {
-    "@drenso-toast-ui/chart": "^4.1.4"
+    "@toast-ui/chart": "^4.1.4"
   },
   "publishConfig": {
     "access": "public"

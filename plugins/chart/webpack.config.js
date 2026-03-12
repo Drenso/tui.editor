@@ -44,10 +44,10 @@ function getOutputConfig(isProduction, isCDN, minify) {
 function getExternalsConfig() {
   return [
     {
-      '@drenso-toast-ui/chart': {
-        commonjs: '@drenso-toast-ui/chart',
-        commonjs2: '@drenso-toast-ui/chart',
-        amd: '@drenso-toast-ui/chart',
+      '@toast-ui/chart': {
+        commonjs: '@toast-ui/chart',
+        commonjs2: '@toast-ui/chart',
+        amd: '@toast-ui/chart',
         root: ['toastui', 'Chart'],
       },
     },
