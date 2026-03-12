@@ -193,6 +193,11 @@ module.exports = (env) => {
         ],
         externals: [
           {
+            dompurify: {
+              commonjs: 'dompurify',
+              commonjs2: 'dompurify',
+              amd: 'dompurify',
+            },
             'prosemirror-commands': {
               commonjs: 'prosemirror-commands',
               commonjs2: 'prosemirror-commands',
