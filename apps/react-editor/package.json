@@ -16,12 +16,12 @@
   },
   "homepage": "https://ui.toast.com",
   "bugs": {
-    "url": "https://github.com/nhn/tui.editor/issues"
+    "url": "https://github.com/Drenso/tui.editor/issues"
   },
   "author": "NHN Cloud FE Development Lab <dl_javascript@nhn.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nhn/tui.editor.git",
+    "url": "https://github.com/Drenso/tui.editor.git",
     "directory": "apps/react-editor"
   },
   "license": "MIT",

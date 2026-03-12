@@ -24,11 +24,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nhn/tui.editor.git",
+    "url": "https://github.com/Drenso/tui.editor.git",
     "directory": "plugins/color-syntax"
   },
   "bugs": {
-    "url": "https://github.com/nhn/tui.editor/issues"
+    "url": "https://github.com/Drenso/tui.editor/issues"
   },
   "homepage": "https://ui.toast.com",
   "browserslist": "last 2 versions, not ie <= 10",

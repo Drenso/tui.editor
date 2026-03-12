@@ -1,6 +1,6 @@
 # TOAST UI Editor for React
 
-> This is a [React](https://reactjs.org/) component wrapping [TOAST UI Editor](https://github.com/nhn/tui.editor/tree/master/apps/editor).
+> This is a [React](https://reactjs.org/) component wrapping [TOAST UI Editor](https://github.com/Drenso/tui.editor/tree/master/apps/editor).
 
 [![npm version](https://img.shields.io/npm/v/@drenso-toast-ui/react-editor.svg)](https://www.npmjs.com/package/@drenso-toast-ui/react-editor)
 

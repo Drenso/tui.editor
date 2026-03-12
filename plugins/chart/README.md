@@ -1,6 +1,6 @@
 # TOAST UI Editor : Chart Plugin
 
-> This is a plugin of [TOAST UI Editor](https://github.com/nhn/tui.editor/tree/master/apps/editor) to render chart.
+> This is a plugin of [TOAST UI Editor](https://github.com/Drenso/tui.editor/tree/master/apps/editor) to render chart.
 
 [![npm version](https://img.shields.io/npm/v/@drenso-toast-ui/editor-plugin-chart.svg)](https://www.npmjs.com/package/@drenso-toast-ui/editor-plugin-chart)
 
@@ -38,9 +38,9 @@ The bundle files include all dependencies of this plugin.
 
 ## 📦 Usage npm
 
-To use the plugin, [`@drenso-toast-ui/editor`](https://github.com/nhn/tui.editor/tree/master/apps/editor) must be installed.
+To use the plugin, [`@drenso-toast-ui/editor`](https://github.com/Drenso/tui.editor/tree/master/apps/editor) must be installed.
 
-> Ref. [Getting Started](https://github.com/nhn/tui.editor/blob/master/docs/en/getting-started.md)
+> Ref. [Getting Started](https://github.com/Drenso/tui.editor/blob/master/docs/en/getting-started.md)
 
 ### Install
 

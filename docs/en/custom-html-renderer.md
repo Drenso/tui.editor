@@ -190,7 +190,7 @@ The following markdown text and AST tree object will help you understand the str
 }
 ```
 
-The type definition of each node can be found in the [source code](https://github.com/nhn/tui.editor/blob/master/libs/toastmark/src/commonmark/node.ts).
+The type definition of each node can be found in the [source code](https://github.com/Drenso/tui.editor/blob/master/libs/toastmark/src/commonmark/node.ts).
 
 ## Context
 

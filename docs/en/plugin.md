@@ -6,11 +6,11 @@ TOAST UI Editor (henceforth referred to as 'Editor') provides a plugin. Plugin i
 
 | Plugin Name | Package Name | Description |
 | --- | --- | --- |
-| [`chart`](https://github.com/nhn/tui.editor/tree/master/plugins/chart) | [`@drenso-toast-ui/editor-plugin-chart`](https://www.npmjs.com/package/@drenso-toast-ui/editor-plugin-chart) | Plugin to render chart |
-| [`code-syntax-highlight`](https://github.com/nhn/tui.editor/tree/master/plugins/code-syntax-highlight) | [`@drenso-toast-ui/editor-plugin-code-syntax-highlight`](https://www.npmjs.com/package/@drenso-toast-ui/editor-plugin-code-syntax-highlight) | Plugin to highlight code syntax |
-| [`color-syntax`](https://github.com/nhn/tui.editor/tree/master/plugins/color-syntax) | [`@drenso-toast-ui/editor-plugin-color-syntax`](https://www.npmjs.com/package/@drenso-toast-ui/editor-plugin-color-syntax) | Plugin to color editing text |
-| [`table-merged-cell`](https://github.com/nhn/tui.editor/tree/master/plugins/table-merged-cell) | [`@drenso-toast-ui/editor-plugin-table-merged-cell`](https://www.npmjs.com/package/@drenso-toast-ui/editor-plugin-table-merged-cell) | Plugin to merge table cells |
-| [`uml`](https://github.com/nhn/tui.editor/tree/master/plugins/uml) | [`@drenso-toast-ui/editor-plugin-uml`](https://www.npmjs.com/package/@drenso-toast-ui/editor-plugin-uml) | Plugin to render UML |
+| [`chart`](https://github.com/Drenso/tui.editor/tree/master/plugins/chart) | [`@drenso-toast-ui/editor-plugin-chart`](https://www.npmjs.com/package/@drenso-toast-ui/editor-plugin-chart) | Plugin to render chart |
+| [`code-syntax-highlight`](https://github.com/Drenso/tui.editor/tree/master/plugins/code-syntax-highlight) | [`@drenso-toast-ui/editor-plugin-code-syntax-highlight`](https://www.npmjs.com/package/@drenso-toast-ui/editor-plugin-code-syntax-highlight) | Plugin to highlight code syntax |
+| [`color-syntax`](https://github.com/Drenso/tui.editor/tree/master/plugins/color-syntax) | [`@drenso-toast-ui/editor-plugin-color-syntax`](https://www.npmjs.com/package/@drenso-toast-ui/editor-plugin-color-syntax) | Plugin to color editing text |
+| [`table-merged-cell`](https://github.com/Drenso/tui.editor/tree/master/plugins/table-merged-cell) | [`@drenso-toast-ui/editor-plugin-table-merged-cell`](https://www.npmjs.com/package/@drenso-toast-ui/editor-plugin-table-merged-cell) | Plugin to merge table cells |
+| [`uml`](https://github.com/Drenso/tui.editor/tree/master/plugins/uml) | [`@drenso-toast-ui/editor-plugin-uml`](https://www.npmjs.com/package/@drenso-toast-ui/editor-plugin-uml) | Plugin to render UML |
 
 ## How to Use Plugin
 
@@ -205,7 +205,7 @@ interface PluginInfo {
 
 #### toHTMLRenderers
 
-`toHTMLRenderers` object can change the rendering results of elements when rendered in the Markdown Preview or when converted from Markdown Editor to WYSIWYG Editor. It is same as the [customHTMLRenderer](https://github.com/nhn/tui.editor/blob/master/docs/en/custom-html-renderer.md) option in the editor.
+`toHTMLRenderers` object can change the rendering results of elements when rendered in the Markdown Preview or when converted from Markdown Editor to WYSIWYG Editor. It is same as the [customHTMLRenderer](https://github.com/Drenso/tui.editor/blob/master/docs/en/custom-html-renderer.md) option in the editor.
 
 **toMarkdownRenderers**
 
@@ -326,7 +326,7 @@ Like the code above, you can set which items to add to the `toolbarItems` array.
 
 * `groupIndex`: Toolbar group index to add toolbar item.
 * `itemIndex`: Toolbar item index in group.
-* `item`: Toolbar Item. It is the same form as the object used in [toolbar customization](https://github.com/nhn/tui.editor/blob/master/docs/en/toolbar.md).
+* `item`: Toolbar Item. It is the same form as the object used in [toolbar customization](https://github.com/Drenso/tui.editor/blob/master/docs/en/toolbar.md).
 
 If the `toolbarItems` option is set, as in the example code, the toolbar item will be added as the fourth index of the first toolbar group.
 
@@ -369,4 +369,4 @@ Plugin functions can use some information with `context` parameters to define th
 
 ## Example
 
-Examples can be found [here](https://nhn.github.io/tui.editor/latest/tutorial-example13-creating-plugin) and in the [plugin package](https://github.com/nhn/tui.editor/tree/master/plugins).
+Examples can be found [here](https://nhn.github.io/tui.editor/latest/tutorial-example13-creating-plugin) and in the [plugin package](https://github.com/Drenso/tui.editor/tree/master/plugins).

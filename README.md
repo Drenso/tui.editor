@@ -2,7 +2,7 @@
 
 > GFM  Markdown and WYSIWYG Editor - Productive and Extensible
 
-[![github release version](https://img.shields.io/github/v/release/nhn/tui.editor.svg?include_prereleases)](https://github.com/nhn/tui.editor/releases/latest) [![npm version](https://img.shields.io/npm/v/@drenso-toast-ui/editor.svg)](https://www.npmjs.com/package/@drenso-toast-ui/editor) [![license](https://img.shields.io/github/license/nhn/tui.editor.svg)](https://github.com/nhn/tui.editor/blob/master/LICENSE) [![PRs welcome](https://img.shields.io/badge/PRs-welcome-ff69b4.svg)](https://github.com/nhn/tui.editor/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22) [![code with hearth by NHN Cloud](https://img.shields.io/badge/%3C%2F%3E%20with%20%E2%99%A5%20by-NHN_Cloud-ff1414.svg)](https://github.com/nhn)
+[![github release version](https://img.shields.io/github/v/release/Drenso/tui.editor.svg?include_prereleases)](https://github.com/Drenso/tui.editor/releases/latest) [![npm version](https://img.shields.io/npm/v/@drenso-toast-ui/editor.svg)](https://www.npmjs.com/package/@drenso-toast-ui/editor) [![license](https://img.shields.io/github/license/Drenso/tui.editor.svg)](https://github.com/Drenso/tui.editor/blob/master/LICENSE) [![PRs welcome](https://img.shields.io/badge/PRs-welcome-ff69b4.svg)](https://github.com/Drenso/tui.editor/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22) [![code with hearth by NHN Cloud](https://img.shields.io/badge/%3C%2F%3E%20with%20%E2%99%A5%20by-NHN_Cloud-ff1414.svg)](https://github.com/nhn)
 
 <img src="https://user-images.githubusercontent.com/37766175/121809054-446bac80-cc96-11eb-9139-08c6d9ad2d88.png" />
 
@@ -27,24 +27,24 @@
 
 | Name | Description |
 | --- | --- |
-| [`@drenso-toast-ui/editor`](https://github.com/nhn/tui.editor/tree/master/apps/editor) | Plain JavaScript component |
+| [`@drenso-toast-ui/editor`](https://github.com/Drenso/tui.editor/tree/master/apps/editor) | Plain JavaScript component |
 
 ### TOAST UI Editor's Wrappers
 
 | Name | Description |
 | --- | --- |
-| [`@drenso-toast-ui/react-editor`](https://github.com/nhn/tui.editor/tree/master/apps/react-editor) | [React](https://reactjs.org/) wrapper component |
-| [`@drenso-toast-ui/vue-editor`](https://github.com/nhn/tui.editor/tree/master/apps/vue-editor) | [Vue](https://vuejs.org/) wrapper component |
+| [`@drenso-toast-ui/react-editor`](https://github.com/Drenso/tui.editor/tree/master/apps/react-editor) | [React](https://reactjs.org/) wrapper component |
+| [`@drenso-toast-ui/vue-editor`](https://github.com/Drenso/tui.editor/tree/master/apps/vue-editor) | [Vue](https://vuejs.org/) wrapper component |
 
 ### TOAST UI Editor's Plugins
 
 | Name | Description |
 | --- | --- |
-| [`@drenso-toast-ui/editor-plugin-chart`](https://github.com/nhn/tui.editor/tree/master/plugins/chart) | Plugin to render chart |
-| [`@drenso-toast-ui/editor-plugin-code-syntax-highlight`](https://github.com/nhn/tui.editor/tree/master/plugins/code-syntax-highlight) | Plugin to highlight code syntax |
-| [`@drenso-toast-ui/editor-plugin-color-syntax`](https://github.com/nhn/tui.editor/tree/master/plugins/color-syntax) | Plugin to color editing text |
-| [`@drenso-toast-ui/editor-plugin-table-merged-cell`](https://github.com/nhn/tui.editor/tree/master/plugins/table-merged-cell) | Plugin to merge table columns |
-| [`@drenso-toast-ui/editor-plugin-uml`](https://github.com/nhn/tui.editor/tree/master/plugins/uml) | Plugin to render UML |
+| [`@drenso-toast-ui/editor-plugin-chart`](https://github.com/Drenso/tui.editor/tree/master/plugins/chart) | Plugin to render chart |
+| [`@drenso-toast-ui/editor-plugin-code-syntax-highlight`](https://github.com/Drenso/tui.editor/tree/master/plugins/code-syntax-highlight) | Plugin to highlight code syntax |
+| [`@drenso-toast-ui/editor-plugin-color-syntax`](https://github.com/Drenso/tui.editor/tree/master/plugins/color-syntax) | Plugin to color editing text |
+| [`@drenso-toast-ui/editor-plugin-table-merged-cell`](https://github.com/Drenso/tui.editor/tree/master/plugins/table-merged-cell) | Plugin to merge table columns |
+| [`@drenso-toast-ui/editor-plugin-uml`](https://github.com/Drenso/tui.editor/tree/master/plugins/uml) | Plugin to render UML |
 
 
 ## 🤖 Why TOAST UI Editor?
@@ -86,20 +86,20 @@ CommonMark and GFM are great, but we often need more abstraction. The TOAST UI E
 
 **Five basic plugins** are provided as follows, and can be downloaded and used with npm.
 
-* [**`chart`**](https://github.com/nhn/tui.editor/tree/master/plugins/chart) : A code block marked as a 'chart' will render [TOAST UI Chart](https://github.com/nhn/tui.chart).
-* [**`code-syntax-highlight`**](https://github.com/nhn/tui.editor/tree/master/plugins/code-syntax-highlight) : Highlight the code block area corresponding to the language provided by [Prism.js](https://prismjs.com/).
-* [**`color-syntax`**](https://github.com/nhn/tui.editor/tree/master/plugins/color-syntax) : 
+* [**`chart`**](https://github.com/Drenso/tui.editor/tree/master/plugins/chart) : A code block marked as a 'chart' will render [TOAST UI Chart](https://github.com/nhn/tui.chart).
+* [**`code-syntax-highlight`**](https://github.com/Drenso/tui.editor/tree/master/plugins/code-syntax-highlight) : Highlight the code block area corresponding to the language provided by [Prism.js](https://prismjs.com/).
+* [**`color-syntax`**](https://github.com/Drenso/tui.editor/tree/master/plugins/color-syntax) : 
 Using [TOAST UI ColorPicker](https://github.com/nhn/tui.color-picker), you can change the color of the editing text with the GUI.
-* [**`table-merged-cell`**](https://github.com/nhn/tui.editor/tree/master/plugins/table-merged-cell) : 
+* [**`table-merged-cell`**](https://github.com/Drenso/tui.editor/tree/master/plugins/table-merged-cell) : 
 You can merge columns of the table header and body area.
-* [**`uml`**](https://github.com/nhn/tui.editor/tree/master/plugins/uml) : A code block marked as an 'uml' will render [UML diagrams](http://plantuml.com/screenshot).
+* [**`uml`**](https://github.com/Drenso/tui.editor/tree/master/plugins/uml) : A code block marked as an 'uml' will render [UML diagrams](http://plantuml.com/screenshot).
 
 ## 🎨 Features
 
-* [Viewer](https://github.com/nhn/tui.editor/tree/master/docs/en/viewer.md) : Supports a mode to display only markdown data without an editing area.
-* [Internationalization (i18n)](https://github.com/nhn/tui.editor/tree/master/docs/en/i18n.md) : Supports English, Dutch, Korean, Japanese, Chinese, Spanish, German, Russian, French, Ukrainian, Turkish, Finnish, Czech, Arabic, Polish, Galician, Swedish, Italian, Norwegian, Croatian + language and you can extend.
-* [Widget](https://github.com/nhn/tui.editor/tree/master/docs/en/widget.md) : This feature allows you to configure the rules that replaces the string matching to a specific `RegExp` with the widget node.
-* [Custom Block](https://github.com/nhn/tui.editor/tree/master/docs/en/custom-block.md) : Nodes not supported by Markdown can be defined through custom block. You can display the node what you want through writing the parsing logic with custom block.
+* [Viewer](https://github.com/Drenso/tui.editor/tree/master/docs/en/viewer.md) : Supports a mode to display only markdown data without an editing area.
+* [Internationalization (i18n)](https://github.com/Drenso/tui.editor/tree/master/docs/en/i18n.md) : Supports English, Dutch, Korean, Japanese, Chinese, Spanish, German, Russian, French, Ukrainian, Turkish, Finnish, Czech, Arabic, Polish, Galician, Swedish, Italian, Norwegian, Croatian + language and you can extend.
+* [Widget](https://github.com/Drenso/tui.editor/tree/master/docs/en/widget.md) : This feature allows you to configure the rules that replaces the string matching to a specific `RegExp` with the widget node.
+* [Custom Block](https://github.com/Drenso/tui.editor/tree/master/docs/en/custom-block.md) : Nodes not supported by Markdown can be defined through custom block. You can display the node what you want through writing the parsing logic with custom block.
 
 ## 🐾 Examples
 
@@ -169,10 +169,10 @@ For more information on PR's steps, please see links in the Contributing section
 
 ## 💬 Contributing
 
-* [Code of Conduct](https://github.com/nhn/tui.editor/blob/master/CODE_OF_CONDUCT.md)
-* [Contributing Guideline](https://github.com/nhn/tui.editor/blob/master/CONTRIBUTING.md)
-* [Commit Convention](https://github.com/nhn/tui.editor/blob/master/docs/COMMIT_MESSAGE_CONVENTION.md)
-* [Issue Guidelines](https://github.com/nhn/tui.editor/tree/master/.github/ISSUE_TEMPLATE)
+* [Code of Conduct](https://github.com/Drenso/tui.editor/blob/master/CODE_OF_CONDUCT.md)
+* [Contributing Guideline](https://github.com/Drenso/tui.editor/blob/master/CONTRIBUTING.md)
+* [Commit Convention](https://github.com/Drenso/tui.editor/blob/master/docs/COMMIT_MESSAGE_CONVENTION.md)
+* [Issue Guidelines](https://github.com/Drenso/tui.editor/tree/master/.github/ISSUE_TEMPLATE)
 
 
 ## 🍞 TOAST UI Family
@@ -192,4 +192,4 @@ For more information on PR's steps, please see links in the Contributing section
 
 ## 📜 License
 
-This software is licensed under the [MIT](https://github.com/nhn/tui.editor/blob/master/LICENSE) © [NHN Cloud](https://github.com/nhn).
+This software is licensed under the [MIT](https://github.com/Drenso/tui.editor/blob/master/LICENSE) © [NHN Cloud](https://github.com/nhn).

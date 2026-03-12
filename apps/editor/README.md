@@ -27,13 +27,13 @@ const editor = new Editor(options);
 
 ## 📙 Documents
 
-- [Getting Started](https://github.com/nhn/tui.editor/blob/master/docs/en/getting-started.md)
+- [Getting Started](https://github.com/Drenso/tui.editor/blob/master/docs/en/getting-started.md)
 - [APIs](https://nhn.github.io/tui.editor/latest/)
 - v3.0 Migration Guide
-  - [English](https://github.com/nhn/tui.editor/blob/master/docs/v3.0-migration-guide.md)
-  - [한국어](https://github.com/nhn/tui.editor/blob/master/docs/v3.0-migration-guide-ko.md)
+  - [English](https://github.com/Drenso/tui.editor/blob/master/docs/v3.0-migration-guide.md)
+  - [한국어](https://github.com/Drenso/tui.editor/blob/master/docs/v3.0-migration-guide-ko.md)
 
-You can also see the older versions of API page on the [releases page](https://github.com/nhn/tui.editor/releases).
+You can also see the older versions of API page on the [releases page](https://github.com/Drenso/tui.editor/releases).
 
 ## 💾 Install
 
@@ -171,6 +171,6 @@ Find out more options [here](https://nhn.github.io/tui.editor/latest/ToastUIEdit
 
 ## 🦄 Tutorials
 
-- [Viewer](https://github.com/nhn/tui.editor/blob/master/docs/en/viewer.md)
-- [Plugins](https://github.com/nhn/tui.editor/blob/master/docs/en/plugin.md)
-- [Internationalization (i18n)](https://github.com/nhn/tui.editor/blob/master/docs/en/i18n.md)
+- [Viewer](https://github.com/Drenso/tui.editor/blob/master/docs/en/viewer.md)
+- [Plugins](https://github.com/Drenso/tui.editor/blob/master/docs/en/plugin.md)
+- [Internationalization (i18n)](https://github.com/Drenso/tui.editor/blob/master/docs/en/i18n.md)

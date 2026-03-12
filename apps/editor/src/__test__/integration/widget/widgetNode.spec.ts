@@ -292,7 +292,7 @@ describe('widgetNode', () => {
 
     it('should return the markdown text without widget syntax through calling getMarkdown() API', () => {
       const markdownText = oneLineTrim`
-        Brand site: [#toast](https://ui.toast.com), editor: [#toastui-editor](https://github.com/nhn/tui.editor)\n
+        Brand site: [#toast](https://ui.toast.com), editor: [#toastui-editor](https://github.com/Drenso/tui.editor)\n
         The Toastui-editor...
       `;
 
