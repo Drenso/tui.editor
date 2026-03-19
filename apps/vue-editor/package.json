@@ -25,12 +25,12 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "vue": "^2.5.0",
+    "vue": "^3.5.30",
     "vue-loader": "^15.9.8",
     "vue-template-compiler": "^2.6.12"
   },
   "peerDependencies": {
-    "vue": "^2.5.0"
+    "vue": "^3.5.30"
   },
   "dependencies": {
     "@drenso-toast-ui/editor": "^3.4.1"
