@@ -130,7 +130,7 @@ jobs:
             npm run build ${item}
           done
       - name: Generate Github Release
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@v3
         with:
           make_latest: true
           tag_name: v${{ steps.check.outputs.committed-version }}
